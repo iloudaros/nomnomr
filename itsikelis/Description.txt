@@ -1,1 +1,3 @@
 Here is the workspace of Ioannis T
+
+Phase folders: The documents (.pdf, .txt, .png, .jpg files) for each phase of the project are stored in their corresponding folders.
