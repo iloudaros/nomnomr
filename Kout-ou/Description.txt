@@ -1,1 +1,7 @@
 Here is the workspace of Christina
+
+
+Directories: 
+
+Phase 1 : Files of deliverable no.1
+Phase 2 : Files of deliverable no.2
