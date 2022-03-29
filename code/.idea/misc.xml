@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/BESIANA/Desktop/Project/app/src/main/res/drawable/forthshape.xml" value="0.291" />
+        <entry key="..\:/Users/BESIANA/Desktop/Project/app/src/main/res/layout/activity_chooseplace.xml" value="0.5" />
+        <entry key="..\:/Users/BESIANA/Desktop/Project/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/BESIANA/Desktop/Project/app/src/main/res/layout/activity_matchfound.xml" value="0.3120471014492754" />
+        <entry key="..\:/Users/BESIANA/Desktop/Project/app/src/main/res/layout/activity_payment.xml" value="0.3029891304347826" />
+        <entry key="..\:/Users/BESIANA/Desktop/Project/app/src/main/res/layout/matchfound.xml" value="0.3120471014492754" />
+        <entry key="..\:/Users/BESIANA/Desktop/Project/app/src/main/res/layout/payment.xml" value="0.3029891304347826" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/layout/payment.xml" value="0.34782608695652173" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/drawable/fifthshape.xml" value="0.2075" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/drawable/forthshape.xml" value="0.2075" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/drawable/secondshape.xml" value="0.1175" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/drawable/shape.xml" value="0.1925" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/drawable/thirdshape.xml" value="0.1175" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/layout/activity_chooseplace.xml" value="0.4" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/layout/chooseplace.xml" value="0.10175438596491228" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/layout/matchfound.xml" value="0.264" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/layout/payment.xml" value="0.25226449275362317" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/layout/second.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
