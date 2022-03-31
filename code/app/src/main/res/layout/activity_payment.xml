@@ -11,7 +11,7 @@
         android:layout_width="309dp"
         android:layout_height="47dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="256dp"
         android:layout_marginEnd="83dp"
         android:background="@drawable/forthshape"
         android:text="Νερο                                0,50€"
@@ -70,15 +70,41 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="170dp"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="170dp"
-        android:text="Πληρωμη"
-        android:textSize="20sp"
-        android:textColor="@color/white"
         android:background="@drawable/fifthshape"
+        android:text="Πληρωμη"
+        android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="450dp"
+        android:layout_height="950dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/choosecategory" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="231dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="-350dp"
+        android:layout_marginTop="-750dp"
+        android:layout_marginEnd="-250dp"
+        android:text="Το μερίδιο σου είναι: "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
