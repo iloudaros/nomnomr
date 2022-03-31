@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,12 +21,21 @@ public class MainActivity extends AppCompatActivity {
 
         button.setOnClickListener(view -> {
 
-            Intent intent = new Intent( this, chooseplace.class);
+            Intent intent = new Intent( this, choosecategory.class);
 
             startActivity(intent);
         });
+
+            ImageButton newbutton = findViewById(R.id.imageButton4);
+
+            newbutton.setOnClickListener(view -> {
+
+                Intent intent = new Intent( this, Address.class);
+
+                startActivity(intent);
+
+
+        });
 }
-
-
 
 };
