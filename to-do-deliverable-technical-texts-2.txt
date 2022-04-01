@@ -1,0 +1,15 @@
+Deliverable Technical Texts
+
+Previous Phases:
+-Project Plan ✓
+-Team Plan ✓
+-Risk Assessment - To Do: new table and cards (Christina)
+-Team Risk Assessment - To Do: new table and cards (Christina)
+-Feasibility Study - To Do: add new questionaire screenshots and their descriptions (Athanasia)
+
+
+Phase 2:
+-Use Cases - To Do: add use cases (delivery, user, store) and use case model (Tsikelis, Loudaros, Christina, Athanasia, Ioanna)
+-Domain Model - To Do: add classes, their descriptions and class diagram (Tsikelis, Athanasia)
+-Project Code - To Do: add link for our github
+-Project Description - To Do: add new mockups and their descriptions (Loudaros)
