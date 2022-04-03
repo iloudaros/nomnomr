@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project">
         <activity
+            android:name=".CreateRoom"
+            android:exported="false" />
+        <activity
+            android:name=".Newaddress"
+            android:exported="false" />
+        <activity
             android:name=".choosecategory"
             android:exported="false" />
         <activity

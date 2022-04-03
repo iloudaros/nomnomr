@@ -10,6 +10,20 @@
         <entry key="..\:/Users/BESIANA/Desktop/Project/app/src/main/res/layout/activity_payment.xml" value="0.3029891304347826" />
         <entry key="..\:/Users/BESIANA/Desktop/Project/app/src/main/res/layout/matchfound.xml" value="0.3120471014492754" />
         <entry key="..\:/Users/BESIANA/Desktop/Project/app/src/main/res/layout/payment.xml" value="0.3029891304347826" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_create_room.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2415" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/drawable/fifthshape.xml" value="0.2415" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/drawable/forthshape.xml" value="0.2415" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2415" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/layout/activity_address.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/layout/activity_choosecategory.xml" value="0.16818642350557245" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/layout/activity_chooseplace.xml" value="0.22" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/layout/activity_create_room.xml" value="0.28329297820823246" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/layout/activity_createroom.xml" value="0.264" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/layout/activity_main.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/layout/activity_matchfound.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/layout/activity_newaddress.xml" value="0.33" />
+        <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/layout/activity_payment.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/BESIANA/StudioProjects/nomnomr/code/app/src/main/res/layout/payment.xml" value="0.34782608695652173" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/drawable/fifthshape.xml" value="0.2075" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/drawable/forthshape.xml" value="0.2075" />
@@ -22,16 +36,6 @@
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/layout/matchfound.xml" value="0.264" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/layout/payment.xml" value="0.25226449275362317" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/layout/second.xml" value="0.25" />
-        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/code/app/src/main/res/drawable-anydpi/edit.xml" value="0.134" />
-        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/code/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.244" />
-        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/code/app/src/main/res/drawable/forthshape.xml" value="0.138" />
-        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/code/app/src/main/res/drawable/thirdshape.xml" value="0.138" />
-        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/code/app/src/main/res/layout/activity_address.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/code/app/src/main/res/layout/activity_choosecategory.xml" value="0.4742468415937804" />
-        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/code/app/src/main/res/layout/activity_chooseplace.xml" value="0.4" />
-        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/code/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/code/app/src/main/res/layout/activity_matchfound.xml" value="0.4" />
-        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/code/app/src/main/res/layout/activity_payment.xml" value="0.24456521739130435" />
       </map>
     </option>
   </component>

@@ -36,6 +36,15 @@ public class MainActivity extends AppCompatActivity {
 
 
         });
+
+        Button nextbutton = findViewById(R.id.button3);
+
+        nextbutton.setOnClickListener(view -> {
+
+            Intent intent = new Intent( this, CreateRoom.class);
+
+            startActivity(intent);
+        });
 }
 
 };
