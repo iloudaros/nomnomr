@@ -1,2 +1,5 @@
-
+.gradle/
+.idea/
+code
 .DS_Store
+Items that need relocation/local.properties
