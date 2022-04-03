@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Project</string>
+
+    <string-array name="Epiloges">
+        <item> Καλύτερη Βαθμολογία </item>
+        <item> Δημοφιλέστερα </item>
+        <item> Κοντινότερα </item>
+        <item> Γρηγορότερα </item>
+        <item> Ελάχιστο Κόστος Παραγγελίας </item>
+    </string-array>
+
 </resources>
