@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         button.setOnClickListener(view -> {
 
-            Intent intent = new Intent( this, choosecategory.class);
+            Intent intent = new Intent( this, Paraggelnwsolo.class);
 
             startActivity(intent);
         });

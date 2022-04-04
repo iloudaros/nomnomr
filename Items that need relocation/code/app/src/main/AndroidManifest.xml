@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project">
         <activity
+            android:name=".Nolikes"
+            android:exported="false" />
+        <activity
+            android:name=".katastimata"
+            android:exported="false" />
+        <activity
+            android:name=".newchoosecategory"
+            android:exported="false" />
+        <activity
+            android:name=".Paraggelnwsolo"
+            android:exported="false" />
+        <activity
             android:name=".JoinRoom"
             android:exported="false" />
         <activity
