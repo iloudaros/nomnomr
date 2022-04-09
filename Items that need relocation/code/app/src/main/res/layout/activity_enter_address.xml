@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnterAddress">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="450dp"
+        android:layout_height="950dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/choosecategory" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="311dp"
+        android:layout_height="111dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:srcCompat="@drawable/secondmap" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="230dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="380dp"
+        android:ems="10"
+        android:hint="      Οδός "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView1" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="313dp"
+        android:layout_height="57dp"
+        android:background="@drawable/forthshape"
+        android:src="@drawable/topothesia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView1"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword1"
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="380dp"
+        android:ems="10"
+        android:hint=" Αριθμός"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView1" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="340dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="452dp"
+        android:ems="10"
+        android:hint="      Πόλη "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView1" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="338dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="532dp"
+        android:ems="10"
+        android:hint="      Τ.Κ "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="628dp"
+        android:background="@drawable/forthshape"
+        android:text="Ακυρωση"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="628dp"
+        android:background="@drawable/fifthshape"
+        android:text="Επιβεβαιωση"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
