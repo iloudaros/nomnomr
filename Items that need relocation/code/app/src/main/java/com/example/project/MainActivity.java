@@ -30,12 +30,13 @@ public class MainActivity extends AppCompatActivity {
 
             newbutton.setOnClickListener(view -> {
 
-                Intent intent = new Intent( this, Address.class);
+                Intent intent = new Intent( this, EditAddress.class);
 
                 startActivity(intent);
 
 
         });
+
 
         Button nextbutton = findViewById(R.id.button3);
 
