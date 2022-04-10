@@ -23,6 +23,14 @@ public class Paraggelnwsolo extends AppCompatActivity {
             startActivity(intent);
         });
 
+        ImageButton buttonn = findViewById(R.id.imageButton3);
+
+        buttonn.setOnClickListener(view -> {
+
+            Intent intent = new Intent( this, Searchrestaurant.class);
+
+            startActivity(intent);
+        });
 
     }
 }

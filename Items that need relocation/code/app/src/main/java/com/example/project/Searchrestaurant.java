@@ -5,19 +5,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageView;
 
-public class EnterAddress extends AppCompatActivity {
+public class Searchrestaurant extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_enter_address);
+        setContentView(R.layout.activity_searchrestaurant);
 
-        Button button = findViewById(R.id.button2);
+        ImageView button = findViewById(R.id.imageView28);
 
         button.setOnClickListener(view -> {
 
-            Intent intent = new Intent( this, Findaddress.class);
+            Intent intent = new Intent( this, Chosenshop.class);
 
             startActivity(intent);
         });

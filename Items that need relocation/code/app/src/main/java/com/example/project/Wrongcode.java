@@ -6,18 +6,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class EnterAddress extends AppCompatActivity {
+public class Wrongcode extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_enter_address);
+        setContentView(R.layout.activity_wrongcode);
 
-        Button button = findViewById(R.id.button2);
+        Button button = findViewById(R.id.button1);
 
         button.setOnClickListener(view -> {
 
-            Intent intent = new Intent( this, Findaddress.class);
+            Intent intent = new Intent( this, JoinRoom.class);
 
             startActivity(intent);
         });

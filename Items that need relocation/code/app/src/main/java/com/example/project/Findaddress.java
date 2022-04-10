@@ -13,11 +13,20 @@ public class Findaddress extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_findaddress);
 
-        Button nextbutto = findViewById(R.id.button2);
+        Button button2 = findViewById(R.id.button2);
 
-        nextbutto.setOnClickListener(view -> {
+        button2.setOnClickListener(view -> {
 
             Intent intent = new Intent( this, MainActivity.class);
+
+            startActivity(intent);
+        });
+
+        Button button = findViewById(R.id.button1);
+
+        button.setOnClickListener(view -> {
+
+            Intent intent = new Intent( this, EnterAddress.class);
 
             startActivity(intent);
         });

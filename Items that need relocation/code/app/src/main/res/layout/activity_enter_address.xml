@@ -56,13 +56,13 @@
 
     <EditText
         android:id="@+id/editTextTextPassword1"
-        android:layout_width="95dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="380dp"
+        android:layout_width="98dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="372dp"
         android:ems="10"
-        android:hint=" Αριθμός"
+        android:hint="  Αριθμός"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintHorizontal_bias="0.882"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView1" />
 
@@ -91,27 +91,14 @@
         app:layout_constraintTop_toTopOf="@+id/imageView1" />
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="139dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="628dp"
-        android:background="@drawable/forthshape"
-        android:text="Ακυρωση"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.176"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView1" />
-
-    <Button
         android:id="@+id/button2"
-        android:layout_width="139dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="628dp"
+        android:layout_width="164dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="632dp"
         android:background="@drawable/fifthshape"
-        android:text="Επιβεβαιωση"
+        android:text="Συνεχεια"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.838"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView1" />
 

@@ -20,15 +20,55 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="181dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="216dp"
+        android:layout_width="115dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="180dp"
         android:text="Τι θες πάλι ;"
         android:textColor="@color/black"
-        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="311dp"
+        android:layout_height="144dp"
+        android:background="@drawable/forthshape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.393"
+        app:srcCompat="@drawable/coffeeeee" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="310dp"
+        android:layout_height="158dp"
+        android:background="@drawable/forthshape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.675"
+        app:srcCompat="@drawable/drinks" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="307dp"
+        android:layout_height="158dp"
+        android:background="@drawable/forthshape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972"
+        app:srcCompat="@drawable/food" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project">
         <activity
+            android:name=".Chooseplace2"
+            android:exported="false" />
+        <activity
+            android:name=".Chosenshop"
+            android:exported="false" />
+        <activity
+            android:name=".Searchrestaurant"
+            android:exported="false" />
+        <activity
+            android:name=".Wrongcode"
+            android:exported="false" />
+        <activity
+            android:name=".Peoplejoin"
+            android:exported="false" />
+        <activity
             android:name=".EnterAddress"
             android:exported="false" />
         <activity

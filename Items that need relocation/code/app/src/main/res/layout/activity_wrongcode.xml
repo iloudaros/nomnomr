@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wrongcode">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="450dp"
+        android:layout_height="950dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/choosecategory" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="268dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="296dp"
+        android:ems="10"
+        android:hint="        Κωδικός Δωματίου "
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="237dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="228dp"
+        android:text="Κωδικός Δωματίου:"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="292dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="388dp"
+        android:text="  Ο κωδικός δεν είναι έγκυρος"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="243dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="544dp"
+        android:background="@drawable/forthshape"
+        android:text="Πρωτη φορα μου συμβαινει αυτό"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

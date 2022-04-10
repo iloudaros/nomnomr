@@ -2,8 +2,10 @@ package com.example.project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -45,6 +47,15 @@ public class katastimata extends AppCompatActivity {
             public void onStopTrackingTouch(SeekBar seekBar) {
 
             }
+        });
+
+        Button button = findViewById(R.id.button9);
+
+        button.setOnClickListener(view -> {
+
+            Intent intent = new Intent( this, chooseplace.class);
+
+            startActivity(intent);
         });
     }
 }
