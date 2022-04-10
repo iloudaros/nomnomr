@@ -7,10 +7,10 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="309dp"
-        android:layout_height="47dp"
+        android:layout_width="329dp"
+        android:layout_height="52dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="276dp"
+        android:layout_marginTop="232dp"
         android:layout_marginEnd="83dp"
         android:background="@drawable/forthshape"
         android:text="Νερο                                0,50€"
@@ -22,8 +22,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="309dp"
-        android:layout_height="47dp"
+        android:layout_width="328dp"
+        android:layout_height="49dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="70dp"
@@ -37,8 +37,8 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="309dp"
-        android:layout_height="47dp"
+        android:layout_width="326dp"
+        android:layout_height="52dp"
         android:layout_marginStart="42dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="282dp"
@@ -52,8 +52,8 @@
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="309dp"
-        android:layout_height="47dp"
+        android:layout_width="329dp"
+        android:layout_height="55dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="70dp"
@@ -70,14 +70,14 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="170dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="124dp"
         android:layout_marginEnd="170dp"
         android:background="@drawable/fifthshape"
         android:text="Πληρωμή"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button6" />
 
@@ -90,6 +90,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/choosecategory" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="269dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="572dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="209dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="184dp"
+        android:text="Tο μερίδιο σου είναι: "
+        android:textColor="@color/black"
+
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView8" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

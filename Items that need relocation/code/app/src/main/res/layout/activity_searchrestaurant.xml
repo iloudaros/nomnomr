@@ -68,6 +68,14 @@
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/mpampis" />
 
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Καλαθι 0€"
+                android:textSize="20dp"
+                android:background="@drawable/forthshape"/>
+
         </LinearLayout>
     </ScrollView>
 

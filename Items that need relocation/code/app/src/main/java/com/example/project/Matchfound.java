@@ -18,7 +18,7 @@ public class Matchfound extends AppCompatActivity {
 
         button.setOnClickListener(view -> {
 
-            Intent intent = new Intent( this, Payment.class);
+            Intent intent = new Intent( this, DecidePayment.class);
 
             startActivity(intent);
         });
@@ -26,7 +26,7 @@ public class Matchfound extends AppCompatActivity {
 
         newbutton.setOnClickListener(view -> {
 
-            Intent intent = new Intent( this, Payment.class);
+            Intent intent = new Intent( this, choosecategory.class);
 
             startActivity(intent);
         });
