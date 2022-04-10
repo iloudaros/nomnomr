@@ -64,12 +64,16 @@
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/layout/payment.xml" value="0.25226449275362317" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/Project/app/src/main/res/layout/second.xml" value="0.25" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_add_new_address.xml" value="0.264" />
-        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_choosecategory.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_choosecategory.xml" value="0.1" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_choosecategoryasian.xml" value="0.2" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_choosecategorygreek.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_chooseplace.xml" value="0.2" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_chooseplace2.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_chosencategory.xml" value="0.264" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_chosenplace.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_chosenshop.xml" value="0.2" />
-        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_create_room.xml" value="0.16" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_create_room.xml" value="0.1" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_decide_payment.xml" value="0.264" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_edit_address.xml" value="0.2" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_enter_address.xml" value="0.2" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_findaddress.xml" value="0.1" />
@@ -78,13 +82,19 @@
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_matchfound.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_newchoosecategory.xml" value="0.27608695652173915" />
-        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_nolikes.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_nolikes.xml" value="0.264" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_order_accepted.xml" value="0.2" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_paraggelnwsolo.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_payment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_payment.xml" value="0.1" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_peoplejoin.xml" value="0.264" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_searchrestaurant.xml" value="0.264" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/activity_wrongcode.xml" value="0.24094202898550723" />
         <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/card_item.xml" value="0.1" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/dropdownitem.xml" value="0.12183383991894631" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/dropdownitemtwo.xml" value="0.12183383991894631" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/dropdowntwo.xml" value="0.1" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/matchfound.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pkavvadias/AndroidStudioProjects/nomnomr/Items that need relocation/code/app/src/main/res/layout/payment.xml" value="0.1" />
       </map>
     </option>
   </component>

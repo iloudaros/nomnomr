@@ -8,5 +8,13 @@
         <item> Γρηγορότερα </item>
         <item> Ελάχιστο Κόστος Παραγγελίας </item>
     </string-array>
+    <string-array name="Pliromi">
+        <item>
+            Μετρητά
+        </item>
+        <item>
+            Κάρτα
+        </item>
+    </string-array>
 
 </resources>

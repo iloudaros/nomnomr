@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project">
         <activity
+            android:name=".chosencategory"
+            android:exported="false" />
+        <activity
+            android:name=".choosecategorygreek"
+            android:exported="false" />
+        <activity
+            android:name=".choosecategoryasian"
+            android:exported="false" />
+        <activity
+            android:name=".OrderAccepted"
+            android:exported="false" />
+        <activity
+            android:name=".DecidePayment"
+            android:exported="false" />
+        <activity
             android:name=".Chooseplace2"
             android:exported="false" />
         <activity

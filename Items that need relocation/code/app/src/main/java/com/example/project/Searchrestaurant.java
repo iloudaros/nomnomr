@@ -22,5 +22,14 @@ public class Searchrestaurant extends AppCompatActivity {
 
             startActivity(intent);
         });
+
+        Button button1 = findViewById(R.id.button1);
+
+        button1.setOnClickListener(view -> {
+
+            Intent intent = new Intent(this, DecidePayment.class);
+
+            startActivity(intent);
+        });
     }
 }
