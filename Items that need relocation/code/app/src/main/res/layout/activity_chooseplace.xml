@@ -47,7 +47,7 @@
         app:srcCompat="@drawable/foundcard" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton1"
         android:layout_width="63dp"
         android:layout_height="46dp"
         android:layout_marginStart="-350dp"

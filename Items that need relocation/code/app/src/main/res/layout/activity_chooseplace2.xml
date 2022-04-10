@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="-350dp"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="196dp"
         android:layout_marginEnd="-350dp"
         android:text="Ας φάμε από το..."
         android:textColor="@color/black"
@@ -35,11 +35,11 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="232dp"
+        android:layout_width="363dp"
+        android:layout_height="344dp"
+        android:layout_marginTop="268dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/indianfood" />
@@ -63,14 +63,14 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="59dp"
+        android:layout_width="68dp"
         android:layout_height="44dp"
         android:layout_marginStart="-100dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="-350dp"
         android:background="@drawable/forthshape"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
-        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
         app:srcCompat="@drawable/heart" />
@@ -80,11 +80,11 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginStart="-260dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="-300dp"
         android:background="@drawable/forthshape"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
-        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintHorizontal_bias="0.325"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
         app:srcCompat="@drawable/star" />
@@ -93,13 +93,13 @@
         android:id="@+id/textView16"
         android:layout_width="203dp"
         android:layout_height="52dp"
-        android:layout_marginTop="564dp"
+        android:layout_marginTop="560dp"
         android:text="Makhani"
         android:textColor="@color/white"
         android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintHorizontal_bias="0.288"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

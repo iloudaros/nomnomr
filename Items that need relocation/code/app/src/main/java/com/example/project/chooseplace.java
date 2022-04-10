@@ -26,7 +26,7 @@ float x1,x2,y1,y2;
 
 
 
-        ImageButton button = findViewById(R.id.imageButton2);
+        ImageButton button = findViewById(R.id.imageButton5);
 
         button.setOnClickListener(view -> {
 
@@ -34,6 +34,24 @@ float x1,x2,y1,y2;
 
             startActivity(intent);
         });
+        ImageButton button2 = findViewById(R.id.imageButton2);
+
+        button2.setOnClickListener(view -> {
+
+            Intent intent = new Intent(this, Chooseplace2.class);
+
+            startActivity(intent);
+        });
+
+        ImageButton button3 = findViewById(R.id.imageButton1);
+
+        button3.setOnClickListener(view -> {
+
+            Intent intent = new Intent(this, Chooseplace2.class);
+
+            startActivity(intent);
+        });
+
     }
 
     public boolean onTouchEvent(MotionEvent touchEvent){
