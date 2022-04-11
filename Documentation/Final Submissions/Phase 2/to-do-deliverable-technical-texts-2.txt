@@ -2,7 +2,7 @@ Deliverable Technical Texts
 
 Previous Phases:
 -Project Plan ✓
--Team Plan ✓
+-Team Plan (working methods - tsikelis)
 -Risk Assessment ✓
 -Team Risk Assessment - new paragraphs (Christina- Ioanna)
 -Feasibility Study  ✓
@@ -20,4 +20,4 @@ To - Do mockups:
 -Βαθμολογία Παραγγελίας
 -Παρακολούθηση Παραγγελίας Delivery
 -Παρακολούθηση Παραγγελίας Takeaway
--Ομαδική Τελική Επιλογή Εστιατορίου - αστεράκια, καρδούλες, ουράνια τόξα κ.ο.κ.
+-Ομαδική Τελική Επιλογή Εστιατορίου - αστεράκια, καρδούλες, ουράνια τόξα κ.ο.κ. (3b-like)
