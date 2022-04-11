@@ -1,8 +1,6 @@
 
 ### Creative Commons License Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) 
 
-![CC BY-NC-SA 3.0](https://github.com/iloudaros/nomnomr/tree/main/docs/contributions/itsikelis/license.png)
-
 This is a human-readable summary of the Legal Code. 
 
 ---
