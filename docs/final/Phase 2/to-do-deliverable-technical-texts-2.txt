@@ -2,16 +2,16 @@ Deliverable Technical Texts
 
 Previous Phases:
 -Project Plan ✓
--Team Plan (working methods - tsikelis)
+-Team Plan (working methods - tsikelis) ✓
 -Risk Assessment ✓
--Team Risk Assessment - new paragraphs (Christina- Ioanna)
+-Team Risk Assessment - new paragraphs (Christina- Ioanna) ?(Δεν ξέρω που είναι :( )
 -Feasibility Study  ✓
 
 
 Phase 2:
 -Use Cases ✓
--Domain Model (initialdomainmodel, classesrouglyexplained - AthanasiaZ ΚΑΙ στα tools συμπεριλαμβάνουμε το draw.io)
--Project Code - add link for our GitHub + instructions for android studio
+-Domain Model (initialdomainmodel, classesrouglyexplained - AthanasiaZ ΚΑΙ στα tools συμπεριλαμβάνουμε το draw.io)✓
+-Project Code - add link for our GitHub + instructions for android studio ?(waiting for instructions)
 -Project Description - add new mockups and their descriptions 
 
 
