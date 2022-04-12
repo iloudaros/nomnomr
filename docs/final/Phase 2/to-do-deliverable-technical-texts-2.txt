@@ -9,7 +9,7 @@ Previous Phases:
 
 
 Phase 2:
--Use Cases ✓
+-Use Cases - ποια θα υλοποιησουμε - προσθηκη μοκαπ
 -Domain Model✓
 -Project Code - add link for our GitHub + instructions for android studio ?(waiting for instructions)
 -Project Description - add new mockups and their descriptions
