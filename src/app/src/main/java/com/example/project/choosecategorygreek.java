@@ -28,7 +28,7 @@ float x1,x2,y1,y2;
                     startActivity(i);
 
                 } else if (x1>x2){
-                    Intent i = new Intent(choosecategorygreek.this, chosencategory.class);
+                    Intent i = new Intent(choosecategorygreek.this, showchosencategories.class);
                     startActivity(i);
                 }
                 break;

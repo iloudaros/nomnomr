@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project">
         <activity
+            android:name=".showchosencategories"
+            android:exported="false" />
+        <activity
             android:name=".Takeaway"
             android:exported="false" />
         <activity
