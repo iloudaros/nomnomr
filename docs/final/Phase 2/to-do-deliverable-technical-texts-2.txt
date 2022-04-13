@@ -4,15 +4,15 @@ Previous Phases:
 -Project Plan ✓
 -Team Plan ✓
 -Risk Assessment ✓
--Team Risk Assessment - new paragraphs (Christina- Ioanna) team risk texts.pdf - Kou-tou
+-Team Risk Assessment - new paragraphs (Christina- Ioanna) team risk texts.pdf - Kou-tou✓
 -Feasibility Study  ✓
 
 
 Phase 2:
--Use Cases - ποια θα υλοποιησουμε - προσθηκη μοκαπ
+-Use Cases - ποια θα υλοποιησουμε - προσθηκη μοκαπ✓
 -Domain Model✓
 -Project Code - add link for our GitHub + instructions for android studio ?(waiting for instructions)
--Project Description - add new mockups and their descriptions
+-Project Description - add new mockups and their descriptions ✗
 
 
 
