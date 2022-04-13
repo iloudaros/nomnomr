@@ -35,74 +35,55 @@
         app:layout_constraintStart_toEndOf="@+id/imageView13"
         app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="377dp"
-        android:layout_height="400dp"
-        android:layout_marginTop="236dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/greek" />
-
     <ImageButton
         android:id="@+id/imageButton9"
         android:layout_width="74dp"
         android:layout_height="54dp"
-        android:layout_marginStart="55dp"
-        android:layout_marginTop="-120dp"
-        android:layout_marginEnd="-320dp"
-        android:layout_marginBottom="-650dp"
+        android:layout_marginStart="288dp"
         android:background="@drawable/forthshape"
-        app:layout_constraintBottom_toTopOf="@+id/imageView15"
-        app:layout_constraintEnd_toStartOf="@+id/imageView15"
-        app:layout_constraintHorizontal_bias="0.545"
-        app:layout_constraintStart_toEndOf="@+id/imageButton8"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15"
-        app:layout_constraintVertical_bias="0.392"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945"
         app:srcCompat="@drawable/heart" />
 
     <ImageButton
         android:id="@+id/imageButton6"
         android:layout_width="70dp"
         android:layout_height="55dp"
-        android:layout_marginTop="-120dp"
-        android:layout_marginEnd="-120dp"
         android:background="@drawable/forthshape"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView15"
-        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.954"
+        app:layout_constraintVertical_bias="0.945"
         app:srcCompat="@drawable/ex" />
 
     <ImageButton
         android:id="@+id/imageButton8"
         android:layout_width="71dp"
         android:layout_height="54dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="-270dp"
+        android:layout_marginStart="44dp"
         android:background="@drawable/forthshape"
-        app:layout_constraintEnd_toStartOf="@+id/imageView15"
-        app:layout_constraintHorizontal_bias="0.303"
-        app:layout_constraintStart_toEndOf="@+id/imageButton6"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943"
         app:srcCompat="@drawable/star" />
 
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="131dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="576dp"
-        android:text=" Greek "
-        android:textColor="@color/white"
-        android:textSize="35dp"
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="379dp"
+        android:layout_height="393dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727"
+        app:srcCompat="@drawable/souvlaki" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

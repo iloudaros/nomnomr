@@ -10,9 +10,11 @@
         android:id="@+id/imageView8"
         android:layout_width="450dp"
         android:layout_height="950dp"
-        app:srcCompat="@drawable/choosecategory"
-        tools:layout_editor_absoluteX="-32dp"
-        tools:layout_editor_absoluteY="-9dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/choosecategory" />
 
     <Button
         android:id="@+id/button"
@@ -49,17 +51,17 @@
         android:layout_width="326dp"
         android:layout_height="51dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="249dp"
+        android:layout_marginTop="-400dp"
         android:layout_marginEnd="70dp"
         android:background="@drawable/forthshape"
         android:text="Hot Sauce                          0,45€"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.302" />
+        app:layout_constraintVertical_bias="0.589" />
 
     <Button
         android:id="@+id/button7"
@@ -135,7 +137,7 @@
         android:id="@+id/button4"
         android:layout_width="326dp"
         android:layout_height="51dp"
-        android:layout_marginTop="432dp"
+        android:layout_marginTop="420dp"
         android:background="@drawable/forthshape"
         android:text="Chili con soso                7,00€ "
         android:textColor="@color/black"

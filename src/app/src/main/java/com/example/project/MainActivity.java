@@ -56,6 +56,14 @@ String st;
             startActivity(intent);
         });
 
-}
+        Button button2 = findViewById(R.id.button2);
 
+        button2.setOnClickListener(view -> {
+
+            Intent intent = new Intent( this, Paraggeliesmou.class);
+
+            startActivity(intent);
+        });
+
+}
 };
