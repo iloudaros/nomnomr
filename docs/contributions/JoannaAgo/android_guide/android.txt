@@ -1,0 +1,13 @@
+Installation Guide
+• First of all, in order to download the latest Android Studio make sure your system completes
+the needed requirements. You can find them in the bottom of this link: developer.android.com/studio
+The most important ones are: 8 GB RAM or more, 8 GB of available disk space minimum and 1280 x 800 
+minimum screen resolution.
+• While installing Android studio steps are pretty easy. The only thing you must pay attention at is
+the point of choosing type of setup. Prefer "Standard", which is recommended for most users
+• When the installation is done, download an emulator from "Device manager" ( we are working with
+Pixel 3 Api 29)
+• Clone the repository (https://github.com/iloudaros/nomnomr.git), then go to File -> Open and past 
+the link  
+• Click on "scr" file and when you click "Ok" our project will open on a new window
+• Finally, click "Play" to test our app!
