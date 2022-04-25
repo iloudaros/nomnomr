@@ -1,7 +1,7 @@
-#Here is the workspace of Ioannis L
+# Here is the workspace of Ioannis L
 
 
-##Directories:
+## Directories:
 
 **Elements**: Graphics such as the logo which are crucial elements for our branding  
 **Guides**: Contains files about the way we stylise the Project  
