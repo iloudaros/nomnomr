@@ -1,4 +1,5 @@
 # nomnomr.
+
 A tool for the nights when you wanna kill your friends
 
 ## Folder Structure
@@ -19,14 +20,12 @@ A tool for the nights when you wanna kill your friends
 |  |  |--Phase 4
 |  |  |--Phase 5
 |  |  |--Phase 6
-|  |
-|  |--src                # Project's Source Files.
-|  |
-|  |-.gitignore          # .gitignore file.
-|  |
-|  |-LICENSE              # The Project's License.
-|  |
-|  |-README.md --> This File.
+|
+|--src                # Project's Source Files.
+|
+|-.gitignore          # .gitignore file.
+|-LICENSE              # The Project's License.
+|-README.md --> This File.
 ```
 
 ## Execution Instructions
