@@ -5,15 +5,17 @@ A tool for the nights when you wanna kill your friends
 ## Folder Structure
 ```
 .
-|--docs                  # Documentation files.
-|  |--contributions      # Documentation contributions of each member.
+|--code                         # Android Studio Project Files.
+|
+|--docs                         # Documentation Files.
+|  |--contributions             # Documentation Contributions Of Each Member.
 |  |  |--AthanasiaZ
 |  |  |--iloudaros
 |  |  |--itsikelis
 |  |  |--JoannaAgo
 |  |  |--Kout-ou
 |  |  
-|  |--final              # Final files submitted on each phase.
+|  |--final                     # Final Files Submitted On Each Phase.
 |  |  |--Phase 1
 |  |  |--Phase 2
 |  |  |--Phase 3
@@ -21,11 +23,10 @@ A tool for the nights when you wanna kill your friends
 |  |  |--Phase 5
 |  |  |--Phase 6
 |
-|--src                # Project's Source Files.
-|
-|-.gitignore          # .gitignore file.
-|-LICENSE              # The Project's License.
+|-.gitignore                    # .gitignore File.
+|-LICENSE                       # The Project's License.
 |-README.md --> This File.
+
 ```
 
 ## Execution Instructions
