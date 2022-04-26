@@ -1,6 +1,7 @@
 Installation Guide
-• First of all, in order to download the latest Android Studio make sure your system completes
-the needed requirements. You can find them in the bottom of this link: developer.android.com/studio
+• First of all, in order to download the latest Android Studio version make sure your system 
+completes the needed requirements. You can find them in the bottom of this link: 
+developer.android.com/studio
 The most important ones are: 8 GB RAM or more, 8 GB of available disk space minimum and 1280 x 800 
 minimum screen resolution.
 • While installing Android studio steps are pretty easy. The only thing you must pay attention at is
@@ -11,3 +12,11 @@ Pixel 3 Api 29)
 the link  
 • Click on "scr" file and when you click "Ok" our project will open on a new window
 • Finally, click "Play" to test our app!
+
+Cloning the project repository
+• In order to clone our project you must first check if you have downloaded git in your computer.
+• If you haven't please do it and then continue with the next steps.
+• Clone the repository (https://github.com/iloudaros/nomnomr.git), then go File -> New -> Project
+from version control -> Git , paste the link and click "Test".
+• Paste the link and click "Test" , if the connection is successful click "Clone" otherwise check
+again your git installation.
