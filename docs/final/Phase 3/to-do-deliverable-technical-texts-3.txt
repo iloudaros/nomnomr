@@ -1,7 +1,7 @@
 Deliverable Technical Texts
 
 Previous Phases:
--Broken link --> Use Case Model
+-Broken link --> Use Case Model✔︎
  
 
 
