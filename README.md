@@ -34,7 +34,7 @@ A tool for the nights when you wanna kill your friends
 ### Installing Android Studio
 • First of all, in order to download the latest Android Studio (developer.android.com/studio) version make sure your system completes the needed requirements. You can find them in the bottom of the previous link.  
 The most important ones are: 8 GB RAM or more, 8 GB of available disk space minimum and 1280 x 800
-minimum screen resolution.
+minimum screen resolution.  
 • While installing Android studio steps are pretty easy. There are only two things you must pay attention at:
 1. Make sure "Android Virtual Device" box is checked,
 2. While choosing the type of setup. Prefer "Standard", which is recommended for most users. 
