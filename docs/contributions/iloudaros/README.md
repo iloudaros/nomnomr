@@ -4,7 +4,7 @@
 ## Folder Structure
 ```
 .
-|--Description.md --> This File.
+|--README.md --> This File.
 |
 |--Diagrams                 # This File.
 |  |--Delivery Robustness   # Documentation Contributions Of Each Member.
