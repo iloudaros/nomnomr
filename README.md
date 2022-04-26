@@ -38,7 +38,7 @@ The most important ones are: 8 GB RAM or more, 8 GB of available disk space mini
 minimum screen resolution.
 • While installing Android studio steps are pretty easy. There are only two things you must pay attention at:
 1. Make sure "Android Virtual Device" box is checked,
-2. While choosing the type of setup. Prefer "Standard", which is recommended for most users
+2. While choosing the type of setup. Prefer "Standard", which is recommended for most users.  
 • When the installation is done, download an emulator from "Device manager" (we are using Pixel 3 Api 29)
 • Clone the repository (https://github.com/iloudaros/nomnomr.git), then go to File -> Open and past
 the link  
@@ -46,9 +46,9 @@ the link
 • Finally, click "Play" to test our app!
 
  Cloning the project repository
-• In order to clone our project you must first check if you have downloaded Git in your computer.
-• If you haven't please do it and then continue with the next steps.
+• In order to clone our project you must first check if you have downloaded Git in your computer.  
+• If you haven't please do it and then continue with the next steps.  
 • Clone the repository (https://github.com/iloudaros/nomnomr.git), then go File -> New -> Project
-from version control -> Git
+from version control -> Git  
 • Paste the link and click "Test" , if the connection is successful click "Clone" otherwise check
 again your git installation.
