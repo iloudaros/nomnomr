@@ -31,6 +31,7 @@ A tool for the nights when you wanna kill your friends
 
 ## Execution Instructions (Under Contraction)
 
+### Installing Android Studio
 • First of all, in order to download the latest Android Studio (developer.android.com/studio)
 version make sure your system completes the needed requirements. You can find them in the bottom
 of the previous link.
@@ -45,7 +46,7 @@ the link
 • Click on "code" file and when you click "Ok" our project will open on a new window
 • Finally, click "Play" to test our app!
 
- Cloning the project repository
+### Cloning the project repository
 • In order to clone our project you must first check if you have downloaded Git in your computer.  
 • If you haven't please do it and then continue with the next steps.  
 • Clone the repository (https://github.com/iloudaros/nomnomr.git), then go File -> New -> Project
