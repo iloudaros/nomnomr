@@ -29,7 +29,7 @@ A tool for the nights when you wanna kill your friends
 
 ```
 
-## Execution Instructions (Under Contraction)
+## Execution Instructions (Under Constraction)
 
 ### Installing Android Studio
 • First of all, in order to download the latest Android Studio (developer.android.com/studio)
