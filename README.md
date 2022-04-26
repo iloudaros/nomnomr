@@ -37,8 +37,9 @@ The most important ones are: 8 GB RAM or more, 8 GB of available disk space mini
 minimum screen resolution.
 • While installing Android studio steps are pretty easy. There are only two things you must pay attention at:
 1. Make sure "Android Virtual Device" box is checked,
-2. While choosing the type of setup. Prefer "Standard", which is recommended for most users.  
-• When the installation is done, download an emulator from "Device manager" (we are using Pixel 3 Api 29)
+2. While choosing the type of setup. Prefer "Standard", which is recommended for most users. 
+
+• When the installation is done, download an emulator from "Device manager" (we are using Pixel 3 Api 29).  
 • Clone the repository (https://github.com/iloudaros/nomnomr.git), then go to File -> Open and past the link.    
 • Click on "code" file and when you click "Ok" our project will open on a new window
 • Finally, click "Play" to test our app!
