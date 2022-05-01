@@ -9,7 +9,7 @@ minimum screen resolution.
 2. While choosing the type of setup. Prefer "Standard", which is recommended for most users
 • When the installation is done, download an emulator from "Device manager" ( we are working with
 Pixel 3 Api 29)
-• Clone the repository (https://github.com/iloudaros/nomnomr.git), then go to File -> Open and past 
+• Clone the repository (https://github.com/iloudaros/nomnomr.git), then go to File -> Open and paste 
 the link  
 • Click on "code" file and when you click "Ok" our project will open on a new window
 • Finally, click "Play" to test our app!
