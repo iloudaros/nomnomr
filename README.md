@@ -23,7 +23,7 @@ AND I'M PRETTY UNBOTHERED TO YOUR LACTOSE INTOLERANCE, GIANNY.
 
 and last but not least,
 
-3. The ✨P E O P L E  P L E A S I N G✨: You know, exactly what I'm talking about.
+4. The ✨P E O P L E  P L E A S I N G✨: You know, exactly what I'm talking about.
 I'm right here asking you what. would. you. like. to. eat. right. now? "Whatever you want" isn't an option.
 I won't be the one deciding for all of you every Saturday night. You have to take initiative for once and you are gonna be heard. 
  
