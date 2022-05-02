@@ -5,11 +5,17 @@ I have and I think I'm on safe ground saying that it really isn't pleasant.
 There are 4 major dangers when it comes to ordering food online while having company:
 
 1. The ✨I N D E C I S I V E N E S S✨: Oh to be young and have so many options. 
+
 -Pizza? 
+
 -I love cheese. 
+
 -Souvlaki? 
+
 -I mean duh? Is that even a question? 
+
 -Well, I'd probably dig some burittos rignt now. 
+
 -Me freaking too!
 Okay, then... Decide! What is wrong with you people? 
 
