@@ -18,7 +18,7 @@ And you, in the back. You only have cash on you? It's 2022!
 
 3. The ✨P I C K I N E S S✨: Did you know that over 26% of teenage and adult Americans identify as picky eaters?
 Well, now you do. That being said, in a group of 5 people, 1.3 of them is gonna be mortal enemies to broccoli, soy sauce or even bacon.
-So imagine trying to satisfy one of those. I mean go get an item from the kid's menu for all i care. 
+So imagine trying to satisfy one of those. I mean go get an item from the kid's menu for all i care.  
 AND I'M PRETTY UNBOTHERED TO YOUR LACTOSE INTOLERANCE, GIANNY. 
 
 and last but not least,
