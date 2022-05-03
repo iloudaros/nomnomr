@@ -1,9 +1,11 @@
+import com.example.project.Menu;
 
-public class MenuItem {
+public abstract class MenuItem extends Menu {
 
   private  int chosenItem;
   private String chosenItemName;
   private float chosenItemPrice;
+  private int Ingredients;
 
     public int getChosenItem() {
         return chosenItem;
@@ -27,5 +29,13 @@ public class MenuItem {
 
     public void setChosenItemPrice(float chosenItemPrice) {
         this.chosenItemPrice = chosenItemPrice;
+    }
+
+    public int getIngredients() {
+        return Ingredients;
+    }
+
+    public void setIngredients(int ingredients) {
+        Ingredients = ingredients;
     }
 }

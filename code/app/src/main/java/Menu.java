@@ -1,8 +1,10 @@
+package com.example.project;
 
 public class Menu {
     private int Item;
     private String itemName;
     private float itemPrice;
+
 
 
     public int getItem() {
