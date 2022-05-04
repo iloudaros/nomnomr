@@ -4,7 +4,7 @@ public class Address {
     private int StreetNumber;
     private User OrderUsername;
     private int FloorNumber;
-    private Maps mapTracking; 
+    private Map mapTracking; 
 
 
     public void getAddressName(String AddressName) {
@@ -53,7 +53,7 @@ public class Address {
 
 
 
-    public Maps getmapTracking(){
+    public Map getmapTracking(){
 		return mapTracking;
 	}
 
