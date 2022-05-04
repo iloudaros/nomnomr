@@ -4,7 +4,7 @@ public class Address {
     private int StreetNumber;
     private User OrderUsername;
     private int FloorNumber;
-    private Map mapTracking; 
+    private Map Marker; 
 
 
     public void getAddressName(String AddressName) {
