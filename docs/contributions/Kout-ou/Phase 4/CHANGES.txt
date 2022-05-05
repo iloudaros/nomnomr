@@ -1,6 +1,6 @@
 ΣΠΑΣΜΕΝΟ LINK USE CASE MODEL
 
-Ανανέωση στα Use Cases του Καταστήματος.
+Ανανέωση στα Use Cases του Καταστήματος. (contributions/Kout-ou/Phase 4)
 
 ROBUSTNESS DIAGRAM
 Κατάστημα: ΑΛΛΑΓΗ ΟΝΟΜΑΤΩΝ ACTOR ΣΕ "ΚΑΤΑΣΤΗΜΑ"
