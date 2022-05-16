@@ -6,8 +6,10 @@
 .
 |--README.md --> This File.
 |
-|--Diagrams                 # This File.
+|--Diagrams                 # A folder for storing all 
 |  |--Delivery Robustness   # Documentation Contributions Of Each Member.
+|
+|--Dropbox                  # A dropbox for the other members to drop wanted changes in the reports.
 |
 |--Elements                 # Graphics such as the logo which are crucial elements for our branding
 |--Guides                   # Contains files about the way we stylise the Project 
