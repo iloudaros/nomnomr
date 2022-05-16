@@ -68,24 +68,28 @@ An app for the nights when you wanna kill your friends. "nomnomr" offers tools t
 
 ```
 
-## Execution Instructions (Under Construction)
+## Execution Instructions
 
 ### Installing Android Studio
-• First of all, in order to download the latest Android Studio version (https://developer.android.com/studio) make sure your system completes the needed requirements. You can find them at the bottom of the previous link.  
-The most important ones are: 8 GB RAM or more, 8 GB of available disk space minimum and 1280 x 800
-minimum screen resolution.  
-• While installing Android studio steps are pretty easy. There are only two things you must pay attention at:
+
+In order to download the latest Android Studio version (https://developer.android.com/studio) make sure your system satisfies the minimum requirements. Found at the bottom of the provided link.
+The most important ones are: 
+- 8 GB RAM or more,
+- 8 GB of minimum available disk space,
+- 1280 x 800 minimum screen resolution.  
+
+During installation, there are only two things at which you should pay attention:
 1. Make sure "Android Virtual Device" box is checked,
 2. While choosing the type of setup, prefer "Standard", which is recommended for most users. 
 
-• When the installation is done, download an emulator from "Device manager" (we are using Pixel 3 Api 29).  
-• Clone the repository (https://github.com/iloudaros/nomnomr.git), then go to File -> Open and paste the link.    
-• Click on "code" file and when you click "Ok" our project will open on a new window.
-• Finally, click "Play" to test our app!
+- When the installation is completed, download an emulator from the Device Manager (we are using Pixel 3 Api 29).  
+- Clone the repository (https://github.com/iloudaros/nomnomr.git), then go to File -> Open and paste the link.    
+- Click on "code" file and when you click "Ok" our project will open on a new window.
+- Finally, click "Play" to test our app!
 
 ### Cloning the project repository
-• In order to clone our project you must first check if you have downloaded Git in your computer.  
-• If you haven't please do it and then continue with the next steps.  
-• Clone the repository (https://github.com/iloudaros/nomnomr.git), then go File -> New -> Project from version control -> Git.  
-• Paste the link and click "Test" , if the connection is successful click "Clone" otherwise check
+- In order to clone our project you must first check if you have downloaded Git in your computer.  
+- If you haven't please do it and then continue with the next steps.  
+- Clone the repository (https://github.com/iloudaros/nomnomr.git), then go File -> New -> Project from version control -> Git.  
+- Paste the link and click "Test" , if the connection is successful click "Clone" otherwise check
 again your Git installation.
