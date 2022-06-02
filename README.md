@@ -1,5 +1,5 @@
 # nomnomr.
-
+![sample](docs/contributions/iloudaros/Mockups/Mobiles/User/readme.jpg)
 I mean yeah, food delivery apps are cool, but have you ever been in a large group of people trying to find what to order while being extremely hungry?
 I have and I think I'm on safe ground saying that it really isn't pleasant.
 There are 4 major dangers when it comes to ordering food online while having company:
