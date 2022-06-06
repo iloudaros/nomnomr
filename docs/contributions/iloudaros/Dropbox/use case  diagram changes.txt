@@ -3,3 +3,5 @@ Use case diagram:
 Διαγραφή Αξιολόγησης από το διάγραμμα. 
 
 Προσθήκη νέου use case diagram από AthanasiaZ/Writing-Charts/Phase6
+
+-Διαγραφή use case after order βαθμολογία;
