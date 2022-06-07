@@ -1,12 +1,13 @@
-package com.example.project;
 
 import android.view.MenuItem;
+
+import com.example.project.Room;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
 
-public class Order {
+public class Order extends Room {
 	private  int Id ;
 	private LocalDate dateOrdered;
 	private LocalTime timeDelivered;
@@ -26,36 +27,45 @@ public class Order {
     //private Payment paymentMethods;
 	//private Shop shopChoice;
 	//private MenuItem[] orderItems;
-	
-	public Shop getShopChoice() {
-		return shopChoice;
+//    public static void main (String[] args){
+//	}
+
+	public int getId(){
+    	return Id;
 	}
-	public MenuItem[] getMenuItems(){
-		return MenuItem[];
+	public void setId(int id) {
+		this.Id = Id;
 	}
-	public float getFinalPrice(){
-		return finalPrice;
+
+	public Boolean getDelivery() {
+		return delivery;
 	}
-	public Address getDelivAddress(){
-		return delivAddress;
+	public void setDelivery(Boolean delivery) {
+		this.delivery = delivery;
 	}
-	public Payment getPaymentMethods(){
-		return paymentMethods;
+
+	public LocalDate getDateOrdered() {
+		return dateOrdered;
 	}
-	
-	public void setShopChoice(Shop shopChoice){
-		this.shopChoice = shopChoice;
+
+	public void setDateOrdered(LocalDate dateOrdered) {
+		this.dateOrdered = dateOrdered;
 	}
-	public void setMenuItem(MenuItem[] orderItems){
+
+	public LocalTime getTimeDelivered() {
+		return timeDelivered;
+	}
+	public void setTimeDelivered(LocalTime timeDelivered) {
+		this.timeDelivered = timeDelivered;
+	}
+
+	public ArrayList<MenuItem> getOrderItems() {
+		return orderItems;
+	}
+	public void setOrderItems(ArrayList<MenuItem> orderItems) {
 		this.orderItems = orderItems;
 	}
-	public void setFinalPrice(float finalPrice){
-		this.finalPrice = finalPrice;
-	}
-	public void setDelivAddress(Address delivAddress){
-		this.delivAddress = delivAddress;
-	}
-	public void setPaymentMethods(Payment paymentMethods){
-		this.paymentMethods = paymentMethods;
-	}
+
+
+
 }
