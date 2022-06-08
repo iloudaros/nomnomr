@@ -7,7 +7,7 @@ H συνάρτηση addItem(MenuItem) προσθέτει το αντικείμ�
 
 
 
-MenuItem: η κλάση MenuItem αναφέρεται σε ένα προϊόν που πωλείται σε ένα Κατάστημα και απαρτίζεται από το όνομά του (name:String), την περιγραφή του(description:String), τις επιλογές του(ItemOptions:ArrayList(MenuItemOptions)), τιμή αντικειμένου(Price:float) και τα σχόλια(comments:String).
+MenuItem: η κλάση MenuItem αναφέρεται σε ένα προϊόν που πωλείται σε ένα Κατάστημα και απαρτίζεται από το όνομά του (name:String), την περιγραφή του(description:String), τις επιλογές του(ItemOptions:ArrayList(MenuItemOptions)), τιμή αντικειμένου(ItemPrice:float) και τα σχόλια(comments:String).
 H συνάρτηση getItemName() επιστρέφει το όνομα του αντικειμένου.
 H συνάρτηση getItemDescription() επιστρέφει την περιγραφή του αντικειμένου.
 Η συνάρτηση getItemOptions() επιστρέφει τις επιλογές του αντικειμένου.
