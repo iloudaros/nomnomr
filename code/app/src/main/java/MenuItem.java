@@ -1,41 +1,27 @@
-import com.example.project.Menu;
+public class MenuItem {
+    private String Name;
+    private float itemPrice;
+    private String description;
+    ArrayList<MenuItemOptions> items = new ArrayList<MenuItemOptions>();
+    private String comments;
 
-public abstract class MenuItem extends Menu {
-
-  private  int chosenItem;
-  private String chosenItemName;
-  private float chosenItemPrice;
-  private int Ingredients;
-
-    public int getChosenItem() {
-        return chosenItem;
+    private String getItemName() {
+        return ItemName;   
     }
 
-    public void setChosenItem(int chosenItem) {
-        this.chosenItem = chosenItem;
+    private float ItemPrice() {
+        return getItemPrice;
     }
 
-    public String getChosenItemName() {
-        return chosenItemName;
+    private String getItemDescription() {
+        return getItemDescription;
     }
 
-    public void setChosenItemName(String chosenItemName) {
-        this.chosenItemName = chosenItemName;
+    private ArrayList<MenuItemOptions> getitems(){
+        return ArrayList<MenuItemOptions> items;
     }
 
-    public float getChosenItemPrice() {
-        return chosenItemPrice;
-    }
-
-    public void setChosenItemPrice(float chosenItemPrice) {
-        this.chosenItemPrice = chosenItemPrice;
-    }
-
-    public int getIngredients() {
-        return Ingredients;
-    }
-
-    public void setIngredients(int ingredients) {
-        Ingredients = ingredients;
+    private String getcomments(){
+        return comments;
     }
 }
