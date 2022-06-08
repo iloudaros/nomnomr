@@ -8,13 +8,14 @@ import java.time.LocalTime;
 import java.util.ArrayList;
 
 public class Order extends Room {
-	private  int Id ;
+	private  int ID ;
 	private LocalDate dateOrdered;
 	private LocalTime timeDelivered;
 	private Boolean delivery;
 	private Address deliveryAddress;
     private float finalPrice;
     private ArrayList<MenuItem> orderItems = new ArrayList<>();
+	private Payment orderPayment;
 
     enum state {
     	inStore,
@@ -30,11 +31,13 @@ public class Order extends Room {
 //    public static void main (String[] args){
 //	}
 
-	public int getId(){
-    	return Id;
+
+	public int getID() {
+		return ID;
 	}
-	public void setId(int id) {
-		this.Id = Id;
+
+	public void setID(int ID) {
+		this.ID = ID;
 	}
 
 	public Boolean getDelivery() {
@@ -66,6 +69,11 @@ public class Order extends Room {
 		this.orderItems = orderItems;
 	}
 
+	public Payment getOrderPayment() {
+		return orderPayment;
+	}
 
-
+	public void setOrderPayment(Payment orderPayment) {
+		this.orderPayment = orderPayment;
+	}
 }

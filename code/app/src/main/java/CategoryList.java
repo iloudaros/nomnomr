@@ -6,6 +6,11 @@ public class CategoryList {
     ArrayList<String> list = new ArrayList<String>();
 
 
-public something fetchCategories() {
+public Category getCategory() {
+    return Category;
+}
 
+
+public void addCategory(Category) {
+    return 1;
 }
