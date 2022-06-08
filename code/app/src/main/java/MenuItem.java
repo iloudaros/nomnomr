@@ -4,6 +4,7 @@ public class MenuItem {
     private String description;
     ArrayList<MenuItemOptions> items = new ArrayList<MenuItemOptions>();
     private String comments;
+    private boolean available;
 
     private String getItemName() {
         return ItemName;   
