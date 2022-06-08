@@ -4,8 +4,8 @@ Category: η κλάση Category αναφέρεται στις κατηγορί�
 
 CategoryList: η κλάση CategoryList αναφέρεται στις επιλεγμένες κατηγορίες ενός Room και περιέχει μία λίστα με τα επιλεγμένα Categories κάθε Πελάτη (list: ArrayList(Category)). 
 Η συνάρτηση addCategory() προσθέτει στο ArrayList κάθε κατηγορία που επιλέγεται μέσα σε ένα Room.
-Η συνάρτηση getCategory() ανακτά τις επιλεγμένες κατηγορίες.
-
+Η συνάρτηση getCategories() επιστρέφει ένα ArrayList που περιλαμβάνει όλα τα αντικείμενα Category.
+Η συνάρτηση mergeCategoryList(CategoryList) δημιουργεί μία νέα λίστα που απαρτίζεται από δύο άλλες.
 
 
 
