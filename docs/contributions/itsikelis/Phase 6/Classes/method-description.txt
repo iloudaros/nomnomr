@@ -1,0 +1,19 @@
+Room Class:
+
+public void swipeRight(Category): Προσθήκη ψήφου στην κατηγορία που δέχεται ως όρισμα.
+public void swipeRight(Shop): Προσθήκη ψήφου στο Κατάστημα που δέχεται ως όρισμα.
+public Menu swipeUp(Shop): Προσκόμιση του Μενού του Καταστήματος, για εμφάνιση στην οθόνη.
+public void swipeDown(): Επιστροφή στην οθόνη το Καταστήματος.
+public void Superlike(Shop): Ενημέρωση νέου superliked Καταστήματος. Αφαίρεση του προηγούμενου superliked Καταστήματος.
+public void setRoomOptions(RoomOptions): Παραγγελία Σόλο: ενημέρωση φίλτρων 
+public ArrayList<Shop> getSelectedShopList(): Επιστροφή λίστας επιλεγμένων Καταστημάτων.
+public void saveCategories(): 
+public void saveShopList():
+public void createRoom(RoomOptions): Contructor αντικειμένου τύπου Room με αρχικοποίηση των RoomOptions.
+public void setPaymentMethod(enum(Cash, Card)): Προσδιορισμός τύπου πληρωμής.
+
+Customer Class:
+
+public ArrayList<Address> getAddressList(): Προσκόμιση λίστας Διευθύνσεων του Πελάτη.
+public void setActiveAddress(Address): Ενημέρωση ενεργής Διεύθυνσης του Πελάτη.
+public void add Address(Address): Προσθήκη νέας Διεύθυνσης στη λίστα του Πελάτη.
