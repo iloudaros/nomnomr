@@ -25,4 +25,8 @@ public class MenuItem {
     private String getcomments(){
         return comments;
     }
+
+    private boolean isavailable(){
+        return true;
+    }
 }
