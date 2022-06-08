@@ -25,7 +25,3 @@ public class Category {
     public void setDescription(String description) {
       this.description = description;
     }
-
-    public void addCategories(Category) {
-      return 1;
-    }
