@@ -10,12 +10,12 @@ public class MenuItem {
         return ItemName;   
     }
 
-    private float ItemPrice() {
-        return getItemPrice;
+    private float getItemPrice() {
+        return ItemPrice;
     }
 
     private String getItemDescription() {
-        return getItemDescription;
+        return ItemDescription;
     }
 
     private ArrayList<MenuItemOptions> getitems(){
@@ -29,4 +29,5 @@ public class MenuItem {
     private boolean isavailable(){
         return true;
     }
+
 }

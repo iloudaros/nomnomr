@@ -60,7 +60,7 @@ An app for the nights when you wanna kill your friends. "nomnomr" offers tools t
 |  |  |--Phase 3
 |  |  |--Phase 4
 |  |  |--Phase 5
-|  |  |--Phase 6
+|  |  |--nomnomr
 |
 |-.gitignore                    # .gitignore File.
 |-LICENSE                       # The Project's License.
