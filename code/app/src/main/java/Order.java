@@ -10,6 +10,7 @@ import java.util.ArrayList;
 public class Order extends Room {
 	private  int ID ;
 	private LocalDate dateOrdered;
+	private String shop;
 	private LocalTime timeDelivered;
 	private Boolean delivery;
 	private Address deliveryAddress;
@@ -75,5 +76,13 @@ public class Order extends Room {
 
 	public void setOrderPayment(Payment orderPayment) {
 		this.orderPayment = orderPayment;
+	}
+
+	public String getShop() {
+		return shop;
+	}
+
+	public void setShop(String shop) {
+		this.shop = shop;
 	}
 }
