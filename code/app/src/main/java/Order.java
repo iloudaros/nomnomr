@@ -11,10 +11,12 @@ public class Order extends Room {
 	private LocalDate dateOrdered;
 	private String shop;
 	private LocalTime timeDelivered;
+	private LocalTime completionEstimation;
 	private Boolean delivery;
 	private Address deliveryAddress;
+	private Payment orderPayment;
     private float finalPrice;
-    private ArrayList<MenuItem> orderItems = new ArrayList<>();
+    private ArrayList<MenuItem> orderItems = new ArrayList<MenuItem>();
 
 	private String state;
 
@@ -49,6 +51,14 @@ public class Order extends Room {
 	public void setTimeDelivered(LocalTime timeDelivered) {
 		this.timeDelivered = timeDelivered;
 	}
+	public LocalTime getCompletionEstimation() {
+		return completionEstimation;
+	}
+
+	public void setCompletionEstimation(LocalTime completionEstimation) {
+		this.completionEstimation = completionEstimation;
+	}
+
 
 	public ArrayList<MenuItem> getOrderItems() {
 		return orderItems;
@@ -96,6 +106,25 @@ public class Order extends Room {
 
     public String getState(){
     	return state;
+	}
+	public Order mergeOrder(Order otherOrder){
+    	Order newOrder = new Order();
+    	newOrder.shop = this.shop;
+    	newOrder.deliveryAddress = this.deliveryAddress;
+    	newOrder.dateOrdered = this.dateOrdered;
+    	newOrder.timeDelivered = this.timeDelivered;
+    	newOrder.state = this.state;
+    	newOrder.completionEstimation = this.completionEstimation;
+    	newOrder.delivery = this.delivery;
+    	newOrder.orderPayment = this.orderPayment;
+		for (int i = 0 ; i<this.orderItems.size();i++){
+			newOrder.orderItems.add(this.orderItems.get(i));
+		}
+		for (int j = 0 ; j<otherOrder.orderItems.size();j++){
+			newOrder.orderItems.add(otherOrder.orderItems.get(j));
+		}
+		return newOrder;
+
 	}
 
 
