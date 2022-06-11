@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class MenuItem {
     private String Name;
     private float itemPrice;
@@ -7,27 +9,33 @@ public class MenuItem {
     private boolean available;
 
     private String getItemName() {
-        return ItemName;   
+
+        return this.ItemName;
     }
 
     private float getItemPrice() {
-        return ItemPrice;
+
+        return this.ItemPrice;
     }
 
     private String getItemDescription() {
-        return ItemDescription;
+
+        return this.ItemDescription;
     }
 
-    private ArrayList<MenuItemOptions> getitems(){
-        return ArrayList<MenuItemOptions> items;
+    private ArrayList<MenuItemOptions> getItems(){
+
+        return this.items;
     }
 
-    private String getcomments(){
-        return comments;
+    private String getComments(){
+
+        return this.comments;
     }
 
-    private boolean isavailable(){
-        return true;
+    private boolean isAvailable(){
+
+        return this.available;
     }
 
 }

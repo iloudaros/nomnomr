@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class MenuItemOptions {
     private String title;
     private int maxChoices;

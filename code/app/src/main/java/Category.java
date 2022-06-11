@@ -1,27 +1,21 @@
-package com.example.project;
-
 public class Category {
-    private enum title{
-      Asian,
-      Mexican,
-      Indian,
-      ...
-    }
-
+    private String title;
     private String description;
 
-    public title getTitle() {
-      return title;
+    public String getTitle() {
+        return this.title;
     }
 
     public String getDescription() {
-      return description;
+        return this.description;
     }
 
-    public void setTitle(title title) {
-      this.title = title;
+    public void setTitle(String newTitle) {
+        this.title = newTitle;
     }
 
-    public void setDescription(String description) {
-      this.description = description;
+    public void setDescription(String newDescription) {
+        this.description = newDescription;
     }
+
+}
