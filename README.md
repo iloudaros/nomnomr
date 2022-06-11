@@ -90,6 +90,6 @@ During installation, there are only two things at which you should pay attention
 ### Cloning the project repository
 - In order to clone our project you must first check if you have downloaded Git in your computer.  
 - If you haven't please do it and then continue with the next steps.  
-- Clone the repository (https://github.com/iloudaros/nomnomr.git), then go File -> New -> Project from version control -> Git.  
+- Clone the repository (https://github.com/iloudaros/nomnomr.git), then go to File -> New -> Project from version control -> Git.  
 - Paste the link and click "Test" , if the connection is successful click "Clone" otherwise check
 again your Git installation.
