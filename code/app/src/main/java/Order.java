@@ -85,4 +85,14 @@ public class Order extends Room {
 	public void setShop(String shop) {
 		this.shop = shop;
 	}
+
+	public boolean isCard(Payment p){
+    	if(p.getPaymentMethod() == "card"){
+    		return true;
+		}
+    	else{
+    		return false;
+		}
+	}
+
 }
