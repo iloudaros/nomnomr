@@ -37,6 +37,13 @@ public class Map<point, id> {
 
    }
 
+   public ArrayList<Address> getGpsAddress(){
+        return addresses;
+   }
+
+   public HashMap<point, id> getDeliveryPosition(){
+        return deliveryPersonLocation;
+   }
 
     
 }
