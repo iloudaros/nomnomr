@@ -1,9 +1,23 @@
 Η κλάση Online Room αντιπροσωπεύει κάθε δωμάτιο μέσα από το οποίο ένα group ανθρώπων κάνει την παραγγελία του. Εκεί συλλέγονται οι επιλογές των πελατών όπως:
 
-Ποια καταστήματα τους άρεσαν (totalLikes : HashMap(Shop,int)),
-Σε ποια καταστήματα πατήθηκε "Αχ, αυτό θέλω" (totalSuperLikes : HashMap(Shop,int))
+Ποια καταστήματα τους άρεσαν (totalLikes : HashMap(Shop, int)),
+Σε ποια καταστήματα πατήθηκε "Αχ, αυτό θέλω" (totalSuperLikes : HashMap(Shop, int))
 Ποιες κατηγορίες ενδιαφέρουν τους πελάτες (totalCategories : CategoryList)
+Ποιοι πελάτες συμμετέχουν στο δωμάτιο (roomCustomers : ArrayList(email))
 Ποια είναι η τελική παραγγελία που θα στελθεί στο κατάστημα (finalOrder: Order)
 
 
-+ mergeLikes(ArrayList(Shop))
++ mergeLikes(newLikes : ArrayList(Shop))
+Επενεργεί πάνω στην λίστα totalLikes. Προσθέτει όλα τα καταστήματα που υπάρχουν μέσα στην λίστα που δίνεται ως όρισμα.
+
++ getShopList() : ArrayList(Shop)
+Επιστρέφει τα καταστήματα που βρίσκονται στην totalLikes.
+
++ matchExists() : Boolean
+Ελέγχει αν ένα και μόνο ένα κατάστημα έχει likes όσοι είναι οι χρήστες που συμμετέχουν στο δωμάτιο. Επιστρέφει True αν ισχύει η προηγούμενη συνθήκη.
+
++ voteCounting(newLikes : HashMap(Shop,int))
+Προσθέτει τις ψήφους που υπάρχουν μέσα στο όρισμα και στα αντίστοιχα Shops στο totalLikes.
+
++ joinRoom(email : String)
+Προσθέτει το email του ορίσματος στο roomCustomers.

@@ -1,7 +1,10 @@
 Η κλάση RoomDB χειρίζεται την Βάση δεδομένων με τα δωμάτια των πελατών. Διατηρεί μια λίστα με τα ενεργά δωμάτια που έχουν ανοίξει οι χρήστες (activeRooms : ArrayList(OnlineRoom)).
 
-+ checkCode(codeToBeChecked : String)
++ checkCode(codeToBeChecked : String) : Boolean
 Εξετάζει αν ο κωδικός που δίνεται σαν όρισμα υπάρχει στην DB.
 
-+ createRoom(roomOptions : Options) : String
-ΔΗμιουργεί ένα καινούργιο δωμάτιο στην DB σύμφωνα με τα Options που δίνονται σαν ορίσματα. Ύστερα επιστρέφει τον κωδικό αυτού του δωματίου.
++addRoom(OnlineRoom) : String
+Προσθέτει το Online Room του ορίσματος στο activeRooms.
+
++ reserveCode(String)
+Επιστρέφει τον επόμενο διαθέσιμο κωδικό δωματίου.
