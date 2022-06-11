@@ -9,18 +9,14 @@
 //import com.google.android.gms.maps.model.MarkerOptions;
 //import com.google.android.gms.location.LocationServices;
 
-import android.location.Address;
-
 import java.util.ArrayList;
+import java.util.HashMap;
 
-public class Map {
-//    private GoogleMap mMap;
-//    private Location mLastLocation;
-//    private Marker mCurrLocationMarker;
-//    private GoogleApiClient mGoogleApiClient;
-//    private LocationRequest mLocationRequest;
-    
-     private ArrayList<Address> addresses = new ArrayList<Address>();
+public class Map<point, id> {
+
+     private HashMap <point, id>  deliveryPersonLocation;
+
+     private ArrayList<Address> addresses = new ArrayList<>();
 
     public ArrayList<Address> getAddresses() {
         return addresses;
@@ -30,23 +26,24 @@ public class Map {
         this.addresses = addresses;
     }
 
-    //    public void onMapReady(GoogleMap googleMap) {
-//        mMap = googleMap;
-//    }
-//    protected synchronized void buildGoogleApiClient() {
-//        mGoogleApiClient = new GoogleApiClient.Builder(this)
-//                .addConnectionCallbacks(this)
-//                .addOnConnectionFailedListener(this)
-//                .addApi(LocationServices.API).build();
-//        mGoogleApiClient.connect();   }
-//    public void onConnected(Bundle bundle) {
-//        mLocationRequest = new LocationRequest();   }
-//    public void onConnectionSuspended(int i) {}
-//    public void onLocationChanged(Location location) {
-//        mLastLocation = location;
-//        if (mCurrLocationMarker != null) {
-//            mCurrLocationMarker.remove();
-//        } }
-//    public void onConnectionFailed(ConnectionResult connectionResult) {}
+   public boolean addressExists( Address a ){
+       boolean address;
+       if ( a.getAddressName() == "exists"){
+            return true;
+        }
+        else{
+            return false;
+        }
+
+   }
+
+   public ArrayList<Address> getGpsAddress(){
+        return addresses;
+   }
+
+   public HashMap<point, id> getDeliveryPosition(){
+        return deliveryPersonLocation;
+   }
+
     
 }

@@ -16,7 +16,7 @@ public class Room {
     }
 
 	// A list of the Room's criteria to fetch Shops.
-	private ArrayList<ChoiceCriteria> criteria = new ArrayList<ChoiceCriteria>();
+	private ArrayList<ChoiceCriteria> criteria = new ArrayList<ChoicrCriteria>();
 
 	/*
 	*  Getters - Setters
@@ -76,8 +76,8 @@ public class Room {
 	}
 
 	// Choice Criteria Setter.
-	public void setChoiceCriteria(ArrayList<ChoiceCriteria> choiceCriteria){
+	public void setChoiceCriteria(choiceCriteria choiceCriteria){
 
-		this.criteria = choiceCriteria;
+		this.choiceCriteria = choiceCriteria;
 	}
 }
