@@ -1,7 +1,4 @@
-
 import android.view.MenuItem;
-
-import com.example.project.Room;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -13,7 +10,7 @@ public class Order extends Room {
 	private String shop;
 	private LocalTime timeDelivered;
 //	private Boolean delivery;
-	private Address deliveryAddress;
+	//private HomeAddress deliveryAddress;
     private float finalPrice;
     private ArrayList<MenuItem> orderItems = new ArrayList<>();
 	private Payment orderPayment;

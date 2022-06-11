@@ -9,6 +9,8 @@
 //import com.google.android.gms.maps.model.MarkerOptions;
 //import com.google.android.gms.location.LocationServices;
 
+import android.location.Address;
+
 import java.util.ArrayList;
 
 public class Map {
@@ -18,7 +20,7 @@ public class Map {
 //    private GoogleApiClient mGoogleApiClient;
 //    private LocationRequest mLocationRequest;
     
-     private ArrayList<Address> addresses = new ArrayList<>();
+     private ArrayList<Address> addresses = new ArrayList<Address>();
 
     public ArrayList<Address> getAddresses() {
         return addresses;

@@ -8,9 +8,9 @@ public class Customer implements User{
     // The Customer's password.
     private String password;
     // The Customer's added Adresses.
-    private ArrayList<Address> addressList = new ArrayList<Address>();
+    private ArrayList<HomeAddress> addressList = new ArrayList<HomeAddress>();
     // The Customer's currently selected Address.
-    private Address activeAddress;
+    private HomeAddress activeAddress;
     // The Customer's placed Orders, completed and ongoing.
     private ArrayList<Order> orderHistory = new ArrayList<Order>();
 
@@ -27,19 +27,19 @@ public class Customer implements User{
     }
 
     // Returns the Customer's Address List.
-    public ArrayList<Address> getAddressList() {
+    public ArrayList<HomeAddress> getAddressList() {
 
         return this.addressList;
     }
 
     // Update the Customer's current Address.
-    public void setActiveAddress(Address newActiveAddress) {
+    public void setActiveAddress(HomeAddress newActiveAddress) {
 
         this.activeAddress = newActiveAddress;
     }
 
     // Add a new Address in the List.
-    public void addAddress(Address newAddress) {
+    public void addAddress(HomeAddress newAddress) {
 
         this.addressList.add(newAddress);
     }

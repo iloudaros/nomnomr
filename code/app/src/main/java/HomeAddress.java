@@ -1,19 +1,19 @@
-import javax.tools.DocumentationTool.Location;
-
 // Class that describes a Customer's Address.
-public class Address {
+public class HomeAddress {
 
     private String street;
     private int number;
     private String city;
     private Location location;
+    private int floorNumber;
 
     // Address Contructor.
-    public Address(String newStreet, int newNumber, String newCity, Location newLocation) {
+    public HomeAddress(String newStreet, int newNumber, String newCity, Location newLocation, int newFloorNumber) {
 
         street = newStreet;
         number = newNumber;
         city = newCity;
         location = newLocation;
+        floorNumber = newFloorNumber;
     }
 }
