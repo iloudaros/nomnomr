@@ -7,25 +7,22 @@ public class Address {
     private Map Marker; 
 
 
-    public void getAddressName(String AddressName) {
-        this.AddressName = AddressName;
+
+    public void setAddressName(String addressName) {
+        AddressName = addressName;
     }
 
-    public void setAddressName() {
+    public String getAddressName() {
         return AddressName;
     }
 
-
-
-    public void getStreetName(String StreetName) {
-        this.StreetName = StreetName;
+    public int getStreetNumber() {
+        return StreetNumber;
     }
 
-    public void setStreetName() {
-        return StreetName;
+    public void setStreetName(String streetName) {
+        StreetName = streetName;
     }
-
-
 
     public int StreetNumber() {
         return StreetNumber;
@@ -36,12 +33,9 @@ public class Address {
     }
 
 
-
-    public User getOrderUsername(){
-		return OrderUsername;
-	}
-
-    
+    public User getOrderUsername() {
+        return OrderUsername;
+    }
 
     public int FloorNumber() {
         return FloorNumber;
@@ -52,11 +46,9 @@ public class Address {
     }
 
 
-
-    public Map getmapTracking(){
-		return mapTracking;
-	}
-
+    public Map getMarker() {
+        return Marker;
+    }
 }
 
 
