@@ -1,4 +1,4 @@
-ORDER: Η κλάση Order αντιστοιχεί στην Παραγγελία. Περιέχει ένα μοναδικό ID, λίστα των αντικειμένων που έχουν επιλεγεί (arrayList(MenuItem), το όνομα του Shop, τη διεύθυνση που έχει επιλέξει ο πελάτης (deliveryAddress), την ημερομηνία παραγγελίας (dateOrdered) και την ώρα παράδοσης (timeDelivered), την κατάσταση της παραγγελίας (state:enum(inStore,ready,onTheWay,delivered)), το ποσό της παραγγελίας (orderPayment) και εάν η παραγγελία είναι για Delivery (delivery:bool). 
+ORDER: Η κλάση Order αντιστοιχεί στην Παραγγελία. Περιέχει ένα μοναδικό ID, λίστα των αντικειμένων που έχουν επιλεγεί (arrayList(MenuItem), το όνομα του Shop, τη διεύθυνση που έχει επιλέξει ο πελάτης (deliveryAddress), την ημερομηνία παραγγελίας (dateOrdered) και την ώρα παράδοσης (timeDelivered), τον εκτιμώμενο χρόνο παράδοσης της παραγγελίας (completionEstimation) την κατάσταση της παραγγελίας (state:enum(inStore,ready,onTheWay,delivered)), το ποσό της παραγγελίας (orderPayment) και εάν η παραγγελία είναι για Delivery (delivery:bool). 
 
 getOrderItems(): To σύστημα επιστρέφει τα προϊοντα που επέλεξε ο πελάτης και προόσθεσε στο καλάθι του.
 
