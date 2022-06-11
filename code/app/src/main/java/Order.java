@@ -12,26 +12,19 @@ public class Order extends Room {
 	private LocalDate dateOrdered;
 	private String shop;
 	private LocalTime timeDelivered;
-	private Boolean delivery;
+//	private Boolean delivery;
 	private Address deliveryAddress;
     private float finalPrice;
     private ArrayList<MenuItem> orderItems = new ArrayList<>();
 	private Payment orderPayment;
+	private String orderType;
 
-    enum state {
+    private enum state {
     	inStore,
 		ready,
 		onTheWay,
 		delivered
 	}
-
-    //private Address delivAddress;
-    //private Payment paymentMethods;
-	//private Shop shopChoice;
-	//private MenuItem[] orderItems;
-//    public static void main (String[] args){
-//	}
-
 
 	public int getID() {
 		return ID;
@@ -41,11 +34,12 @@ public class Order extends Room {
 		this.ID = ID;
 	}
 
-	public Boolean getDelivery() {
-		return delivery;
+	public String getOrderType() {
+		return orderType;
 	}
-	public void setDelivery(Boolean delivery) {
-		this.delivery = delivery;
+
+	public void setOrderType(String orderType) {
+		this.orderType = orderType;
 	}
 
 	public LocalDate getDateOrdered() {
@@ -94,5 +88,21 @@ public class Order extends Room {
     		return false;
 		}
 	}
+
+//	public boolean isCompleted(){
+//
+//    	if
+//
+//	}
+
+	public boolean isForDelivery() {
+
+		if (orderType == "delivery"){
+			return true;
+		}
+		else {
+		return false;
+	}
+    }
 
 }

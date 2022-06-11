@@ -1,12 +1,13 @@
 import com.example.project.Room;
 
-public class Payment extends Room {
+public class Payment {
+
 
     private int total;
 
-//    public enum type{
-//       card, cash;
-//    }
+    public enum type{
+      card, cash;
+    }
     private String paymentMethod;
 
     public int getTotal() {
@@ -19,6 +20,5 @@ public class Payment extends Room {
     public void setPaymentMethod(String payment){this.paymentMethod = payment; }
 
     public String getPaymentMethod(){return this.paymentMethod;}
-
 
 }
