@@ -6,21 +6,27 @@ public class Options {
       drink,
       coffee
     }
-    private enum sortBy{
-      popularity,
-      proximity,
-      speed,
-      minmum_cost
+
+    private orderType type;
+
+    private enum sortBy {
+        popularity,
+        proximity,
+        speed,
+        minmum_cost
     }
+
+    private sortBy sort;
+
     private int groupSize;
     private int maxShops;
 
     public orderType getOrderType() {
-      return orderType;
+        return type;
     }
 
     public sortBy getSortBy() {
-      return sortBy;
+        return this.sort;
     }
 
     public int getGroupSize() {
@@ -31,12 +37,12 @@ public class Options {
       return maxShops;
     }
 
-    public void setOrderType(orderType orderType) {
-      this.orderType = orderType;
+    public void setOrderType(orderType newType) {
+        this.type = newType;
     }
 
-    public void setSortBy(sortBy sortBy) {
-      this.sortBy = sortBy;
+    public void setSort(sortBy newSort) {
+        this.sort = newSort;
     }
 
     public void setGroupSize(int groupSize) {
