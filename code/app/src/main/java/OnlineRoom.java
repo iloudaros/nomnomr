@@ -18,18 +18,14 @@ public class OnlineRoom {
             Shop key = newLikes.get(i);
             if (this.totalLikes.containsKey(key)) {
                 Integer previousLikes = this.totalLikes.get(key);
-                this.totalLikes.replace(key, Integer(previousLikes.intValue()+1));
+                //this.totalLikes.replace(key, Integer(previousLikes.intValue()+1));
             }
             else
             {
-                this.totalLikes.put(newLikes.get(i), Integer(1));
+                //this.totalLikes.put(newLikes.get(i), Integer(1));
             }
 
         }
-    }
-
-    public ArrayList<Shop> getShopList(){
-
     }
 
 
