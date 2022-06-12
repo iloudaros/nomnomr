@@ -4,4 +4,14 @@ Use cases:
 Τσεκ στις εικόνες αν έχει μετακινηθεί κάτι και δεν φαίνεται κάποιο κομμάτι κειμένου.
 
 Domain Model: 
-Add New Domain Model and changes
+Add New Domain Model and changes:
+
+v0.2:
+-Προστέθηκε η κλάση Preference.
+-Προστέθηκε η κλάση Wallet.
+-Προστέθηκαν attributes και methods.
+
+v1.0:
+-Ο χρωματισμός του επιπλέον υλικού στις τελικές εκδόσεις άλλαξε στο default για λόγους ομοιομορφίας.
+-Αλλαγή γραμμών βελών από sharp σε rounded για λόγους συνέπειας με τα stylistics των υπόλοιπων διαγραμμάτων.
+-Προσθήκη arc line jumps στα βέλη.
