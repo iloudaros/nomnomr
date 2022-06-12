@@ -16,17 +16,17 @@ public class Map<point, id> {
 
      private HashMap <point, id>  deliveryPersonLocation;
 
-     private ArrayList<Address> addresses = new ArrayList<>();
+     private ArrayList<HomeAddress> addresses = new ArrayList<>();
 
-    public ArrayList<Address> getAddresses() {
+    public ArrayList<HomeAddress> getAddresses() {
         return addresses;
     }
 
-    public void setAddresses(ArrayList<Address> addresses) {
+    public void setAddresses(ArrayList<HomeAddress> addresses) {
         this.addresses = addresses;
     }
 
-   public boolean addressExists( Address a ){
+   public boolean addressExists( HomeAddress a ){
        boolean address;
        if ( a.getAddressName() == "exists"){
             return true;
@@ -37,7 +37,7 @@ public class Map<point, id> {
 
    }
 
-   public ArrayList<Address> getGpsAddress(){
+   public ArrayList<HomeAddress> getGpsAddress(){
         return addresses;
    }
 

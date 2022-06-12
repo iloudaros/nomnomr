@@ -1,4 +1,3 @@
-
 import android.view.MenuItem;
 
 
@@ -17,13 +16,16 @@ public class Order extends Room {
     private ArrayList<MenuItem> orderItems = new ArrayList<>();
 	private Payment orderPayment;
 	private String orderType;
+	private int completionEstimation;
 
-    private enum state {
+    private enum OrderState {
     	inStore,
 		ready,
 		onTheWay,
 		delivered
 	}
+
+	private OrderState state;
 
 
 	public int getID() {
@@ -49,11 +51,11 @@ public class Order extends Room {
 	public void setTimeDelivered(LocalTime timeDelivered) {
 		this.timeDelivered = timeDelivered;
 	}
-	public LocalTime getCompletionEstimation() {
+	public int getCompletionEstimation() {
 		return completionEstimation;
 	}
 
-	public void setCompletionEstimation(LocalTime completionEstimation) {
+	public void setCompletionEstimation(int completionEstimation) {
 		this.completionEstimation = completionEstimation;
 	}
 
@@ -82,8 +84,8 @@ public class Order extends Room {
 		this.shop = shop;
 	}
 
-	public void setState(String state) {
-		this.state = state;
+	public void setState(OrderState newState) {
+		this.state = newState;
 	}
 
 	public boolean isCard(Payment p){

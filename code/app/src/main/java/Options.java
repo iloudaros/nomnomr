@@ -1,10 +1,8 @@
-package com.example.project;
-
 public class Options {
-    private enum orderType{
-      food,
-      drink,
-      coffee
+    private enum orderType {
+        food,
+        drink,
+        coffee
     }
 
     private orderType type;
@@ -30,11 +28,11 @@ public class Options {
     }
 
     public int getGroupSize() {
-      return groupSize;
+        return groupSize;
     }
 
     public int getMaxShops() {
-      return maxShops;
+        return maxShops;
     }
 
     public void setOrderType(orderType newType) {
@@ -46,9 +44,10 @@ public class Options {
     }
 
     public void setGroupSize(int groupSize) {
-      this.groupSize = groupSize;
+        this.groupSize = groupSize;
     }
 
     public void setMaxShops(int maxShops) {
-      this.maxShops = maxShops;
+        this.maxShops = maxShops;
     }
+}

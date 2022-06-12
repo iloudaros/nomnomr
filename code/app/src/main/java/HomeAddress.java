@@ -1,4 +1,4 @@
-public class Address {
+public class HomeAddress {
     private String AddressName;
     private String StreetName;
     private int StreetNumber;

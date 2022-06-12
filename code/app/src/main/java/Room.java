@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Room {
     private int roomId;													// Room ID.
-    private ArrayList<Customer> members = new ArrayList<Customer>();	// The Room's Customers.
+    private ArrayList<Customer> members = new ArrayList<Customer>();			// The Room's Customers.
     private int roomSize;												// Maximum Room size.
     private int maxShopDisp;											// Maximum Shops to display.
 
@@ -16,7 +16,7 @@ public class Room {
     }
 
 	// A list of the Room's criteria to fetch Shops.
-	private ArrayList<ChoiceCriteria> criteria = new ArrayList<ChoicrCriteria>();
+	private ArrayList<ChoiceCriteria> criteria = new ArrayList<ChoiceCriteria>();
 
 	/*
 	*  Getters - Setters
@@ -76,8 +76,8 @@ public class Room {
 	}
 
 	// Choice Criteria Setter.
-	public void setChoiceCriteria(choiceCriteria choiceCriteria){
+	public void setChoiceCriteria(ChoiceCriteria newCriteria){
 
-		this.choiceCriteria = choiceCriteria;
+		this.criteria.add(newCriteria);
 	}
 }
