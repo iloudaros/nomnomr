@@ -113,4 +113,9 @@ public class Order extends Room {
 	}
     }
 
+	public Payment getPayment() {
+
+		return this.orderPayment;
+	}
+
 }
