@@ -3,7 +3,7 @@ public class HomeAddress {
     private String StreetName;
     private int StreetNumber;
     private User OrderUsername;
-    private int FloorNumber;
+    private String FloorNumber;
     private Map Marker; 
 
 
@@ -37,11 +37,11 @@ public class HomeAddress {
         return OrderUsername;
     }
 
-    public int FloorNumber() {
+    public String FloorNumber() {
         return FloorNumber;
     }
 
-    public void setFloorNumber(int FloorNumber) {
+    public void setFloorNumber(String FloorNumber) {
         this.FloorNumber = FloorNumber;
     }
 
