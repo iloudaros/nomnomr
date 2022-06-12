@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class MenuItem {
-    private String Name;
-    private float itemPrice;
+    private String name;
+    private float price;
     private String description;
     ArrayList<MenuItemOptions> items = new ArrayList<MenuItemOptions>();
     private String comments;
@@ -10,17 +10,17 @@ public class MenuItem {
 
     private String getItemName() {
 
-        return this.ItemName;
+        return this.name;
     }
 
     private float getItemPrice() {
 
-        return this.ItemPrice;
+        return this.price;
     }
 
     private String getItemDescription() {
 
-        return this.ItemDescription;
+        return this.description;
     }
 
     private ArrayList<MenuItemOptions> getItems(){

@@ -3,7 +3,7 @@
 Ποια καταστήματα τους άρεσαν (totalLikes : HashMap(Shop, int)),
 Σε ποια καταστήματα πατήθηκε "Αχ, αυτό θέλω" (totalSuperLikes : HashMap(Shop, int))
 Ποιες κατηγορίες ενδιαφέρουν τους πελάτες (totalCategories : CategoryList)
-Ποιοι πελάτες συμμετέχουν στο δωμάτιο (roomCustomers : ArrayList(email))
+Ποιοι πελάτες συμμετέχουν στο δωμάτιο (roomCustomers : ArrayList(String))
 Ποια είναι η τελική παραγγελία που θα στελθεί στο κατάστημα (finalOrder: Order)
 
 

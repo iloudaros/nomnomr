@@ -1,4 +1,3 @@
-
 import android.view.MenuItem;
 
 
@@ -11,21 +10,22 @@ public class Order extends Room {
 	private LocalDate dateOrdered;
 	private String shop;
 	private LocalTime timeDelivered;
-	private LocalTime completionEstimation;
-	private Boolean delivery;
-	private Address deliveryAddress;
-	private Payment orderPayment;
+//	private Boolean delivery;
+	private HomeAddress deliveryAddress;
     private float finalPrice;
-    private ArrayList<MenuItem> orderItems = new ArrayList<MenuItem>();
+    private ArrayList<MenuItem> orderItems = new ArrayList<>();
+	private Payment orderPayment;
+	private String orderType;
+	private int completionEstimation;
 
-	private String state;
-
-    private enum state {
+    private enum OrderState {
     	inStore,
 		ready,
 		onTheWay,
 		delivered
 	}
+
+	private OrderState state;
 
 
 	public int getID() {
@@ -51,11 +51,11 @@ public class Order extends Room {
 	public void setTimeDelivered(LocalTime timeDelivered) {
 		this.timeDelivered = timeDelivered;
 	}
-	public LocalTime getCompletionEstimation() {
+	public int getCompletionEstimation() {
 		return completionEstimation;
 	}
 
-	public void setCompletionEstimation(LocalTime completionEstimation) {
+	public void setCompletionEstimation(int completionEstimation) {
 		this.completionEstimation = completionEstimation;
 	}
 
@@ -68,6 +68,14 @@ public class Order extends Room {
 		this.orderItems = orderItems;
 	}
 
+	public Payment getOrderPayment() {
+		return orderPayment;
+	}
+
+	public void setOrderPayment(Payment orderPayment) {
+		this.orderPayment = orderPayment;
+	}
+
 	public String getShop() {
 		return shop;
 	}
@@ -76,8 +84,8 @@ public class Order extends Room {
 		this.shop = shop;
 	}
 
-	public void setState(String state) {
-		this.state = state;
+	public void setState(OrderState newState) {
+		this.state = newState;
 	}
 
 	public boolean isCard(Payment p){
@@ -89,45 +97,20 @@ public class Order extends Room {
 		}
 	}
 
-   public boolean isCompleted(){
-
-  	if( state == "delivered"){
-        return true;
-	}
-  	else {
-  		return false;
-	}
-	}
+//	public boolean isCompleted(){
+//
+//    	if
+//
+//	}
 
 	public boolean isForDelivery() {
 
-		return delivery;
+		if (orderType == "delivery"){
+			return true;
+		}
+		else {
+		return false;
+	}
     }
-
-    public String getState(){
-    	return state;
-	}
-	public Order mergeOrder(Order otherOrder){
-    	Order newOrder = new Order();
-    	newOrder.shop = this.shop;
-    	newOrder.deliveryAddress = this.deliveryAddress;
-    	newOrder.dateOrdered = this.dateOrdered;
-    	newOrder.timeDelivered = this.timeDelivered;
-    	newOrder.state = this.state;
-    	newOrder.completionEstimation = this.completionEstimation;
-    	newOrder.delivery = this.delivery;
-    	newOrder.orderPayment = this.orderPayment;
-		for (int i = 0 ; i<this.orderItems.size();i++){
-			newOrder.orderItems.add(this.orderItems.get(i));
-		}
-		for (int j = 0 ; j<otherOrder.orderItems.size();j++){
-			newOrder.orderItems.add(otherOrder.orderItems.get(j));
-		}
-		return newOrder;
-
-	}
-
-
-
 
 }
