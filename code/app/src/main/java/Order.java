@@ -88,6 +88,11 @@ public class Order extends Room {
 		this.state = newState;
 	}
 
+	public OrderState getState() {
+
+		return this.state;
+	}
+
 	public boolean isCard(Payment p){
     	if(p.getPaymentMethod() == "card"){
     		return true;
@@ -97,11 +102,18 @@ public class Order extends Room {
 		}
 	}
 
-//	public boolean isCompleted(){
-//
-//    	if
-//
-//	}
+	public boolean isCompleted(){
+
+    	if (this.state.equals(OrderState.delivered)) {
+
+			return true;
+		}
+		else {
+
+			return false;
+		}
+
+	}
 
 	public boolean isForDelivery() {
 
@@ -109,13 +121,27 @@ public class Order extends Room {
 			return true;
 		}
 		else {
-		return false;
-	}
+
+			return false;
+		}
+
     }
 
 	public Payment getPayment() {
 
 		return this.orderPayment;
+	}
+
+	public void addToCart(MenuItem item) {
+
+		this.orderItems.add(item);
+	}
+
+	// This is a dummy method. It supposedly merges two order objects together for when a group
+	// Order is performed.
+	public void mergeOrder(Order order) {
+
+		;
 	}
 
 }
