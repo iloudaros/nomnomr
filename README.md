@@ -41,6 +41,8 @@ And you people pleasers. It's your time to shine. You can nominate your likes an
 
 An app for the nights when you wanna kill your friends. "nomnomr" offers tools that you and your friends can use, so that group food orders (a nightmare from the past) are fast and enjoyable. Agree on Food Categories, choose which Restaurant (or Restaurants) you will order from with swipes and Split the Bill, all in one app. Why isn't this a thing already you may ask... Well, we felt the same, so we made it. And now... "there is an app for that!"
 
+---
+
 ## Folder Structure
 ```
 .
