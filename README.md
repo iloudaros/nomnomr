@@ -96,6 +96,6 @@ During installation, there are only two things at which you should pay attention
 - Paste the link and click "Test" , if the connection is successful click "Clone" otherwise check
 again your Git installation.
 
-## Desclaimer
+## Disclaimer
 
 Nomnomr was created as a University Project. As such, it is not a fully functional software product and it's not meant for commercial use. The main objective of the Project is to simulate software development workflows and not to produce a functional product.
